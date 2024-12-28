@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SkufAPI:jar">
+    <output-path>$USER_HOME$/Desktop/test/plugins</output-path>
+    <root id="archive" name="SkufAPI.jar">
+      <element id="module-output" name="SkufAPI" />
+    </root>
+  </artifact>
+</component>
