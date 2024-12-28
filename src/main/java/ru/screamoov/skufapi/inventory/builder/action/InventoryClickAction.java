@@ -2,6 +2,7 @@ package ru.screamoov.skufapi.inventory.builder.action;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.bukkit.event.inventory.ClickType;
 import ru.screamoov.skufapi.inventory.builder.InventoryBuilder;
 
 import java.util.List;
@@ -12,9 +13,9 @@ public class InventoryClickAction {
     public InventoryBuilder inventory;
     public int slot;
     public List<String> actions;
-    public ClickButton clickButton;
+    public ClickType clickButton;
 
-    public InventoryClickAction(int slot, List<String> actions, ClickButton clickButton) {
+    public InventoryClickAction(int slot, List<String> actions, ClickType clickButton) {
         this.slot = slot;
         this.actions = actions;
         this.clickButton = clickButton;
