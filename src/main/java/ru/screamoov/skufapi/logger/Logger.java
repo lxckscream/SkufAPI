@@ -13,22 +13,22 @@ public class Logger {
     }
 
     public void info(String message) {
-        System.out.println("[INFO/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
+        System.out.println("[SkufAPI] [INFO/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
     }
 
     public void fine(String message) {
-        System.out.println("[FINE/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
+        System.out.println("[SkufAPI] [FINE/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
     }
 
     public void warn(String message) {
-        System.out.println("[WARN/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
+        System.out.println("[SkufAPI] [WARN/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
     }
 
     public void critical(String message) {
-        System.out.println("[CRITICAL/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
+        System.out.println("[SkufAPI] [CRITICAL/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
     }
 
     public void error(String message) {
-        System.out.println("[ERROR/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
+        System.out.println("[SkufAPI] [ERROR/" + plugin_name + (show_time ? " | " + LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME) : "") + "] " + message);
     }
 }
