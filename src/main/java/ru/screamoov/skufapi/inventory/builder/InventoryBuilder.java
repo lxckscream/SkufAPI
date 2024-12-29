@@ -45,7 +45,7 @@ public class InventoryBuilder implements Listener {
             for (String key : config.getConfigurationSection("inventory.contents").getKeys(false)) {
                 ItemStack item = new ItemStack(Material.valueOf(config.getString("inventory.contents." + key + ".material").toUpperCase()));
                 ItemMeta meta = item.getItemMeta();
-
+                
             }
         } catch (Exception e) {
             plugin.getLog().fine("Failed to load inventory config file: " + inventoryConfigFile);
