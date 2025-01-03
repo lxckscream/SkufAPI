@@ -2,3 +2,5 @@ name: SkufAPI
 version: '1.0.0-DEV'
 main: ru.screamoov.skufapi.Main
 api-version: '1.16'
+commands:
+  skufapi:
