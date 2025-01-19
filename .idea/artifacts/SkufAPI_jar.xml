@@ -3,6 +3,7 @@
     <output-path>$USER_HOME$/Desktop/test/plugins</output-path>
     <root id="archive" name="SkufAPI.jar">
       <element id="module-output" name="SkufAPI" />
+      <element id="library" level="project" name="worldedit-bukkit-7.2.5-dist" />
     </root>
   </artifact>
 </component>

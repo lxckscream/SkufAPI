@@ -1,9 +1,8 @@
-package ru.screamoov.skufapi.configuration;
+package ru.screamoov.skufapi.configuration.v1;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import ru.screamoov.skufapi.ISkufPlugin;
-import ru.screamoov.skufapi.Main;
 
 import java.io.File;
 

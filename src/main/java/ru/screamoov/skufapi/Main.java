@@ -13,16 +13,15 @@ import static ru.screamoov.skufapi.colorize.Hex.color;
 
 public final class Main extends JavaPlugin {
     static Main api;
-    static Logger log;
+    static Logger log = new Logger(
+                "SkufAPI",
+                true
+        );
     static List<ISkufPlugin> connectedPlugins = new ArrayList<>();
 
     @Override
     public void onEnable() {
         api = this;
-        log = new Logger(
-                "SkufAPI",
-                getConfig().getBoolean("log.show-time")
-        );
 
         getCommand("skufapi").setExecutor(((commandSender, command, s, strings) -> {
             if (strings.length == 0) {
